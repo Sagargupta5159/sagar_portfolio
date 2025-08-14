@@ -1,0 +1,75 @@
+.about-section {
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f0f4f8; /* light background for the section */
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  color: #1e3c72; /* deep blue */
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.about-card {
+  background: linear-gradient(135deg, #ffffff, #e0e7ff); /* gradient rectangle */
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 800px;
+  color: #333;
+  line-height: 1.8;
+  transition: all 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.about-card p {
+  margin-bottom: 25px;
+  font-size: 1.15rem;
+}
+
+.about-card strong {
+  color: #1e3c72; /* same as heading for consistency */
+}
+
+.skills-section {
+  margin-top: 30px;
+  background: #e0f0ff; /* light accent background */
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.skills-section h3 {
+  color: #1e3c72;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.skills-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #333;
+}
+
+.skills-list li {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.skills-section a {
+  color: #1e3c72;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.skills-section a:hover {
+  color: #ffdd59;
+}

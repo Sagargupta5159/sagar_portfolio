@@ -1,0 +1,115 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  width: 100%;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+/* Image Styling */
+.hero-image {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  max-width: 300px; /* increased from 250px */
+  border-radius: 50%;
+  border: 5px solid #ffdd59;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Text Styling */
+.hero-text {
+  flex: 2;
+  min-width: 300px;
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #ffdd59;
+}
+
+.hero-intro {
+  font-size: 1.15rem;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.highlight {
+  color: #ffdd59;
+  font-weight: 600;
+}
+
+.hero-buttons .btn {
+  padding: 12px 25px;
+  margin-right: 15px;
+  background-color: #ffdd59;
+  color: #1e3c72;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-buttons .btn:hover {
+  background-color: #ffd633;
+}
+
+/* Fade-in animations */
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: fadeInLeft 1s forwards;
+}
+
+.fade-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: fadeInRight 1s forwards;
+}
+
+@keyframes fadeInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .hero-image img {
+    max-width: 250px; /* adjust for smaller screens */
+  }
+}
