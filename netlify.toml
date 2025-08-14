@@ -3,4 +3,4 @@
   publish = "build"  # use "dist" if using Vite
 
 [build.environment]
-  NODE_VERSION = "18"  # match your local Node version
+  NODE_VERSION = "20"  # match your local Node version
