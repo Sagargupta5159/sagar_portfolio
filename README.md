@@ -30,17 +30,17 @@ Here are some of my key projects:
 ### 1. **Stock Vision**  
 Predicting stock trends using open interest and trading volume.  
 - Technologies: Python, Streamlit, TensorFlow, yfinance, Plotly  
-- Live Demo: [Stock Vision App](#)
+- Live Demo: [Stock Vision App](https://stock-prediction-app-24-cs-ds-4b-14.streamlit.app/)
 
 ### 2. **Slack Connect App**  
 A full-stack application to connect Slack workspaces, send messages instantly, and schedule messages.  
 - Technologies: TypeScript, Node.js, Slack API, OAuth 2.0  
-- Live Demo: [Slack Connect](#)
+- Live Demo: [Slack Connect](https://slackconnectsagar.netlify.app/)
 
 ### 3. **Portfolio Website**  
 My personal portfolio website showcasing my projects and skills.  
 - Technologies: React, Vite, Tailwind CSS, Netlify  
-- Live Demo: [Portfolio](https://sagargupta5159.github.io/sagar_portfolio/)  
+- Live Demo: [Portfolio](https://sagarportfolio0086.netlify.app/)  
 
 *More projects can be found in the repository folder `/Projects`.*
 
