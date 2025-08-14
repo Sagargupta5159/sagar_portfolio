@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "build"  # use "dist" if using Vite
+  publish = "dist"  # use "dist" if using Vite
 
 [build.environment]
   NODE_VERSION = "20"  # match your local Node version
